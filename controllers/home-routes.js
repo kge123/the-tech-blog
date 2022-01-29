@@ -30,8 +30,11 @@ router.get("/post/:id", async (req, res) => {
         },
       ],
     });
+    
 
-    const post = dbPostData.get({ plain: true });
+        const post = dbPostData.get({ plain: true });
+
+        console.log(post);
     // Send over the 'loggedIn' session variable to the 'gallery' template
     res.render("single", { post, loggedIn: req.session.loggedIn });
   } catch (err) {

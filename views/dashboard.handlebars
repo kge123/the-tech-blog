@@ -1,1 +1,11 @@
-<h1>This is behind Auth after login/signup </h1>
+<div class="posts">
+    {{#each posts}}
+    <a href="/dashboard/edit/{{id}}">
+    <span>{{title}}</span>
+    <span>{{format_date createdAt}}</span>
+    </a>
+
+    {{/each}}
+</div>
+
+<a href="/new">Post</a>
