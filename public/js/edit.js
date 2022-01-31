@@ -16,7 +16,7 @@ const newFormHandler = async (event) => {
       if (response.ok) {
         document.location.replace('/profile');
       } else {
-        alert('Failed to create project');
+        alert('Failed to create post');
       }
     }
   };
@@ -25,7 +25,7 @@ const newFormHandler = async (event) => {
     if (event.target.hasAttribute('data-id')) {
       const id = event.target.getAttribute('data-id');
   
-      const response = await fetch(`/api/projects/${id}`, {
+      const response = await fetch(`/api/post/${id}`, {
         method: 'DELETE',
       });
   
