@@ -2,6 +2,8 @@
 
 ## Description
 
+This is a CMS-style blog site where you can publish blog posts and comment on other posts as well. This site has been deployed to heroku and the link for the deployed application can be found below.
+
 ## User Story
 
 ```md
@@ -47,3 +49,5 @@ THEN I am signed out of the site
 WHEN I am idle on the site for more than a set time
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 ```
+
+## Deployment
