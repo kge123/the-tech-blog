@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a CMS-style blog site where you can publish blog posts and comment on other posts as well. This site has been deployed to heroku and the link for the deployed application can be found below.
+This is a CMS-style blog site where you can publish blog posts and comment on other posts as well as your own. This could be implemented for any type of blog site. This site has been deployed to heroku and the link for the deployed application can be found below.
 
 ## User Story
 
@@ -51,3 +51,17 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 ```
 
 ## Deployment
+
+https://shrouded-caverns-09264.herokuapp.com/
+
+## Demonstration
+
+https://watch.screencastify.com/v/agTNuEqqpWaGwrSR3oXI
+
+<br />
+
+<img src="./images/sitescreenshot.jpg" width = "700">
+
+## Future Development
+
+Work on all functionalities
